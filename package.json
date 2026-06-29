@@ -1,0 +1,15 @@
+{
+  "name": "signaling-server",
+  "version": "1.0.0",
+  "description": "WebRTC signaling server over WebSocket",
+  "main": "signaling_server.js",
+  "scripts": {
+    "start": "node signaling_server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
